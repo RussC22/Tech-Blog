@@ -10,6 +10,9 @@ An application called Note Taker that can be used to write and save notes. This 
 
 ## Important Links
 
+- [<a href='https://https://github.com/RussC22/Object-Oriented-Programming-' target="_blank"><img alt='Github' src='https://img.shields.io/badge/Github-100000?style=plastic&logo=Github&logoColor=8D22FF&labelColor=151304&color=C707A4'/></a>](https://github.com/RussC22/Tech-Blog)
+- [Demo](#)
+
 ## Technology Used
 
 ## Contact Me
