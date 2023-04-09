@@ -5,7 +5,7 @@ router.post("/", async (req, res) => {
   try {
     const userData = await User.create({
       email: req.body.email,
-      name: req.body.name,
+      username: req.body.username,
       password: req.body.password,
     });
 
