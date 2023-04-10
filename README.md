@@ -31,6 +31,13 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Technology Used
 
+![CSS](https://img.shields.io/badge/css-%2144f.svg?style=for-the-badge&logo=css&logoColor=white)
+
+![HTML](https://img.shields.io/badge/html-%2140f.svg?style=for-the-badge&logo=html&logoColor=red)
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+![Handlebars](https://img.shields.io/badge/handlebars-%23323330.svg?style=for-the-badge&logo=handlebars&logoColor=%23F7DF1E)
 ## Contact Me
 
 For quesitons, concerns, or suggestions contact me at:
