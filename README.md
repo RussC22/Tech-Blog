@@ -18,6 +18,12 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Usage information
 
+- User access the command terminal and in the integrated terminal `npm i inquirer`
+
+- The next command in the termial shgould be `npm start`
+
+- Go to localhost:3001 in your browser
+
 ## Important Links
 
 - [<a href='https://https://github.com/RussC22/Object-Oriented-Programming-' target="_blank"><img alt='Github' src='https://img.shields.io/badge/Github-100000?style=plastic&logo=Github&logoColor=8D22FF&labelColor=151304&color=C707A4'/></a>](https://github.com/RussC22/Tech-Blog)
