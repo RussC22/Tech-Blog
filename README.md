@@ -27,7 +27,8 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ## Important Links
 
 - [<a href='https://https://github.com/RussC22/Object-Oriented-Programming-' target="_blank"><img alt='Github' src='https://img.shields.io/badge/Github-100000?style=plastic&logo=Github&logoColor=8D22FF&labelColor=151304&color=C707A4'/></a>](https://github.com/RussC22/Tech-Blog)
-- [Demo](#)
+- 
+<img width="1979" alt="Tech-Blog" src="https://user-images.githubusercontent.com/114961971/230831429-5a400646-1195-42ea-bce1-a02ea2b8e9df.png">
 
 ## Technology Used
 
