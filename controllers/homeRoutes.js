@@ -38,7 +38,7 @@ router.get("/post/:id", async (req, res) => {
 
     const post = postData.get({ plain: true });
 
-    res.render("post", {
+    res.render("singlepost", {
       ...post,
       logged_in: req.session.logged_in,
     });
@@ -90,4 +90,8 @@ router.get("/dashboard", withAuth, async (req, res) => {
   }
 });
 
+// createpost route
+router.get("/createpost", withAuth, async (req, res) => {
+  res.render("post");
+});
 module.exports = router;

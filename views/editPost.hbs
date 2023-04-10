@@ -1,0 +1,25 @@
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Edit your post!:</h3>
+
+    <form class="form new-project-form">
+      <div class="form-group"><input type= "hidden" value="{{id}}"id= "postid">
+        <label for="project-name">title:</label>
+        <input class="form-input" value= "{{title}}" type="text" id="project-name" name="project-name" />
+      </div>
+      
+      <div class="form-group">
+        <label for="project-desc">Content</label>
+        <textarea class="form-input" id="project-desc" name="project-desc">{{content}}</textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Update</button>
+        <button type="click" class="btn btn-danger">Delete</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="/js/edit.js">
+
+    
+  </script>
