@@ -32,6 +32,8 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Technology Used
 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
 ![CSS](https://img.shields.io/badge/css-%2144f.svg?style=for-the-badge&logo=css&logoColor=white)
 
 ![HTML](https://img.shields.io/badge/html-%2140f.svg?style=for-the-badge&logo=html&logoColor=red)
