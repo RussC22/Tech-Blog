@@ -1,11 +1,16 @@
 const { writeFileSync } = require("fs");
 const { faker } = require("@faker-js/faker");
+const path = require("path");
+
+// FOR RUNNING INSIDE THE TECHBLOG CHALLENGE
+// npm i @faker-js/faker
+// Run createSeeds first, then run seed. Both files must be in seeds dir in root of project
 
 const RANDOMUSERS = [];
 
 function createRandomUser() {
   return {
-    name: faker.internet.userName(),
+    username: faker.internet.userName(),
     email: faker.internet.email(),
     password: faker.internet.password(),
   };
@@ -21,8 +26,8 @@ const POSTS = [];
 
 function createRandomPost() {
   return {
-    post_title: faker.lorem.words(Math.ceil(Math.random() * 5)),
-    post_description: faker.lorem.paragraphs(Math.ceil(Math.random() * 4)),
+    title: faker.lorem.words(Math.ceil(Math.random() * 5)),
+    content: faker.lorem.paragraphs(Math.ceil(Math.random() * 4)),
     date_created: faker.date.between(
       "2020-01-01T00:00:00.000Z",
       "2023-01-01T00:00:00.000Z"
@@ -41,7 +46,7 @@ const COMMENTS = [];
 
 function createRandomComment() {
   return {
-    comment_body: faker.lorem.paragraphs(1),
+    comment: faker.lorem.paragraphs(1),
     date_created: faker.date.between(
       "2020-01-01T00:00:00.000Z",
       "2023-01-01T00:00:00.000Z"
